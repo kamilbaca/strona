@@ -14,6 +14,18 @@ header{
 	background-color: rgb(238, 130, 238);
 	text-align:center;
 	font-size: 50px;
+	-webkit-transition-property: font-size;
+	transition-property: font-size;
+	-webkit-transition-duration: 500ms ;
+			transition-duration: 500ms ;
+	display: block;
+}
+header :hover{
+	color:#F00;
+	background-color: #FFF;
+	text-shadow: 0 0 5px black;
+	font-size: 60px;
+
 }
 .menu{
 	width:15%;
@@ -35,8 +47,8 @@ header{
 	height: 40px;
 	text-align:center;
 	line-height: 40px;
-	-webkit-transition-property: background-color,color;
-	transition-property: background-color,color;
+	-webkit-transition-property: background-color,color,font-size;
+	transition-property: background-color,color,font-size;
 	-webkit-transition-duration: 500ms ;
 	        transition-duration: 500ms ;
 	text-shadow: 0 0 5px black;
@@ -49,6 +61,7 @@ header{
 	color:#F00;
 	background-color: #FFF;
 	text-shadow: 0 0 5px black;
+	font-size: 30px;
 
  }
  footer{
@@ -155,8 +168,8 @@ header{
 	height: 40px;
 	text-align:center;
 	line-height: 40px;
-	-webkit-transition-property: background-color,color;
-	transition-property: background-color,color;
+	-webkit-transition-property: background-color,color,font-size;
+	transition-property: background-color,color,font-size;
 	-webkit-transition-duration: 500ms ;
 	        transition-duration: 500ms ;
 	text-shadow: 0 0 5px black;
@@ -170,7 +183,7 @@ header{
 	color:#F00;
 	background-color: #FFF;
 	text-shadow: 0 0 5px black;
-
+	font-size: 40px;
 
 }
 .program {
