@@ -190,6 +190,7 @@ header{
 	width: 499px;
 	height: 300px;
 	display: block;
+	margin-bottom: 25px;
 }
 .program > img:hover{
 	width: 799px;
